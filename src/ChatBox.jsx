@@ -9,9 +9,9 @@ export default function ChatBox({infoMssg}){
                 <Card sx={{ Width: 90 }}>
                     <CardContent>
                         <Typography variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
-                            <h4>from: {infoMssg.from}</h4>
-                            <h4>to: {infoMssg.to}</h4>
-                            <h4>mssg:{infoMssg.mssg}</h4>
+                            <h4>from: <i>{infoMssg.from}</i></h4>
+                            <h4>to: <i>{infoMssg.to}</i></h4>
+                            <h4 style={{color:"green"}}>mssg:{infoMssg.mssg}</h4>
                         </Typography>
                     </CardContent>
                </Card>
